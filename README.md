@@ -1,5 +1,9 @@
 # Fizz Buzz Unit Tests
 
+- tested by MariomcgeeArt with: 
+  - [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+  - [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
+
 Fizz Buzz starter code for FEW 2.1
 
 The goal of this project is to write unit tests for Fizz Buzz using Jest.

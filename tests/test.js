@@ -30,6 +30,20 @@ test('Test fizzyBuzzy', () => {
     expect(fb.fizzyBuzzy(15)).toBe('fizzbuzz')
   })
 
+  test('Test fizzyBuzzy', () => {
+    expect(fb.fizzyBuzzy(1)).toBe('')
+    expect(fb.fizzyBuzzy(5)).toBe('buzz')
+    expect(fb.fizzyBuzzy(3)).toBe('fizz')
+    expect(fb.fizzyBuzzy(15)).toBe('fizzbuzz')
+  })
+
+  test('Test fizzBuzz', () => {
+    expect(fb.fizzBuzz(1)).toBe('')
+    expect(fb.fizzBuzz(5)).toBe('buzz')
+    expect(fb.fizzBuzz(3)).toBe('fizz')
+    expect(fb.fizzBuzz(15)).toBe('fizzbuzz')
+  })
+
 
 
 
